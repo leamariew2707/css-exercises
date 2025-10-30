@@ -1,6 +1,10 @@
 /* Add CSS Styling */
 
 .light-red {
-  background-color: #ff000080;
-  font-family: "Verdana", "DejaVu sans", sans-serif;
+    background-color: #ff000080;
+    font-family: "Verdana", "DejaVu sans", sans-serif;
+}
+
+.cooler {
+    font-size: 36px;
 }
