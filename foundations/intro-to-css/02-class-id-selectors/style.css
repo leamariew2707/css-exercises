@@ -1,1 +1,6 @@
 /* Add CSS Styling */
+
+.light-red {
+  background-color: #ff000080;
+  font-family: "Verdana", "DejaVu sans", sans-serif;
+}
