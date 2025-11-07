@@ -11,18 +11,34 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+  font-size: 32px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  flex-shrink: 0;
+  padding: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
 }
 
 .card {
@@ -39,9 +55,11 @@ body {
 .all-cards {
   display: flex;
   flex-wrap: wrap;
+  padding: 48px;
+  gap: 16px;
 }
 
 .card {
-  max-height: 300px;
-  max-width: 200px;
+  max-width: 300px;
+  padding: 16px;
 }
